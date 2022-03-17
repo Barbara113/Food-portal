@@ -1,0 +1,38 @@
+// app global css in SCSS form
+
+body {
+  background-color: rgba(153, 181, 196, 0.4);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.selectedItem {
+  padding: 15px;
+  width: 80%;
+  margin: 5px 10px;
+  font-weight: bold;
+  position: absolute;
+  font-size: 14px;
+  color: $primary;
+}
+
+.labelOption {
+  font-size: 15px;
+  width: fit-content;
+  margin: 15px 0 0 0;
+  border-bottom: 1px solid rgb(133, 133, 186);
+  padding: 2px;
+}
+
+.options {
+  font-size: 14px !important;
+}
+
+.q-radio__label q-anchor--skip {
+  font-size: 13px;
+}
+
+.q-btn {
+  margin-top: 20px;
+  top: 0px;
+  margin-bottom: 10px;
+}
